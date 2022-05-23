@@ -12,6 +12,7 @@ LOCAL_C_INCLUDES:= \
     $(TARGET_OUT_HEADERS)/mm-core/omxcore
 
 
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE:= libdivxdrmdecrypt
 LOCAL_LICENSE_KINDS:= SPDX-license-identifier-BSD
 LOCAL_LICENSE_CONDITIONS:= notice

@@ -37,6 +37,7 @@ LOCAL_SHARED_LIBRARIES :=       \
         libdl                   \
         libui
 
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE := libstagefrighthw
 LOCAL_LICENSE_KINDS := SPDX-license-identifier-Apache-2.0
 LOCAL_LICENSE_CONDITIONS := notice
