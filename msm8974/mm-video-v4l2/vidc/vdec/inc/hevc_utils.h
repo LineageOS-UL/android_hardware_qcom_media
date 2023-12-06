@@ -46,7 +46,7 @@ This module contains H264 video decoder utilities and helper routines.
 
 ========================================================================== */
 #include <stdio.h>
-#include <utils/Log.h>
+#include <log/log.h>
 #include "Map.h"
 #include "qtypes.h"
 #include "OMX_Core.h"

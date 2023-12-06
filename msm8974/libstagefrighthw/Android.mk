@@ -28,7 +28,7 @@ endif
 
 LOCAL_C_INCLUDES:= \
         frameworks/native/include/media/openmax \
-        frameworks/native/include/media/hardware
+        frameworks/native/include
 
 LOCAL_SHARED_LIBRARIES :=       \
         libbinder               \
@@ -36,6 +36,9 @@ LOCAL_SHARED_LIBRARIES :=       \
         libcutils               \
         libdl                   \
         libui
+
+LOCAL_HEADER_LIBRARIES :=       \
+        libstagefright_headers media_plugin_headers
 
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE := libstagefrighthw

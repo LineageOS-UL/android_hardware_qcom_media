@@ -32,7 +32,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //#define LOG_NDEBUG 0
 #define LOG_TAG "DivXDrmDecrypt"
 #ifdef _ANDROID_
-#include <utils/Log.h>
+#include <log/log.h>
 #else
 #include <stdio.h>
 #define ALOGE(fmt, args...) fprintf(stderr, fmt, ##args)

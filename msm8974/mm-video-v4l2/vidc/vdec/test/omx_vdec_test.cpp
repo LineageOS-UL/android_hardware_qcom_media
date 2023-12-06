@@ -53,7 +53,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <binder/MemoryHeapBase.h>
 
 extern "C" {
-#include<utils/Log.h>
+#include<log/log.h>
 }
 #define DEBUG_PRINT
 #define DEBUG_PRINT_ERROR ALOGE

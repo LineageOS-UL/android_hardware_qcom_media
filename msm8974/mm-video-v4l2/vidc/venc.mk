@@ -92,15 +92,16 @@ LOCAL_MODULE                    := libOmxVenc
 LOCAL_LICENSE_KINDS             := SPDX-license-identifier-BSD
 LOCAL_LICENSE_CONDITIONS        := notice
 LOCAL_MODULE_TAGS               := optional
-LOCAL_CFLAGS                    := $(libmm-venc-def)
+LOCAL_CFLAGS                    := $(libmm-venc-def) -Wno-misleading-indentation
 LOCAL_C_INCLUDES                := $(libmm-venc-inc)
 
 LOCAL_HEADER_LIBRARIES    := \
         display_headers \
-        generated_kernel_headers
+        generated_kernel_headers \
+        media_plugin_headers
 
 LOCAL_SHARED_LIBRARIES    := liblog libutils libbinder libcutils \
-                             libc2dcolorconvert libdl libgui
+                             libc2dcolorconvert libdl libgui_vendor
 
 LOCAL_SRC_FILES   := venc/src/omx_video_base.cpp
 LOCAL_SRC_FILES   += venc/src/omx_video_encoder.cpp

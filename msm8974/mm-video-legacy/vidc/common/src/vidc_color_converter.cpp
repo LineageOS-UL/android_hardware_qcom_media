@@ -25,7 +25,7 @@ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
 OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------*/
-#include <utils/Log.h>
+#include <log/log.h>
 #include <gralloc_priv.h>
 #include "vidc_color_converter.h"
 #undef DEBUG_PRINT_LOW

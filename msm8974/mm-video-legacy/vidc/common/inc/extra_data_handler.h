@@ -40,7 +40,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #ifdef _ANDROID_
 extern "C"{
-#include<utils/Log.h>
+#include<log/log.h>
 }
 #ifdef ENABLE_DEBUG_LOW
 #define DEBUG_PRINT_LOW ALOGV

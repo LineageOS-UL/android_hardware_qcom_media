@@ -77,7 +77,7 @@ class VideoHeap : public MemoryHeapBase
         virtual ~VideoHeap() {}
 };
 
-#include <utils/Log.h>
+#include <log/log.h>
 
 #endif // _ANDROID_
 
