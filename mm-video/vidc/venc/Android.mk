@@ -101,6 +101,7 @@ mm-venc-test720p-inc            += $(call project-path-for,qcom-display)/libgral
 LOCAL_HEADER_LIBRARIES := generated_kernel_headers
 
 LOCAL_MODULE                    := mm-venc-omx-test720p
+LOCAL_VENDOR_MODULE           := true
 LOCAL_MODULE_TAGS               := optional
 LOCAL_CFLAGS                    := $(libmm-venc-def)
 LOCAL_C_INCLUDES                := $(mm-venc-test720p-inc)
